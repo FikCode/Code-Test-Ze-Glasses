@@ -224,7 +224,7 @@ main {
 
 
 /** Media Queries **/
-/* tablet */
+
 @media screen and (min-width: 1140px) {
 
     .searchAndCart {
