@@ -7,6 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="./Assets/Css/style.css">
     <script src="https://kit.fontawesome.com/b3275f9798.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
 </head>
 <body>
     <!--Header-->
@@ -36,12 +38,12 @@
                 </div>
                 <div class="filtersCheck">
                     <p>COLOR:</p>
-                    <input type="checkbox" name="black" id="black">
+                    <input type="checkbox" name="color" id="black" value="black">
                     <label for="black">Black</label>
-                    <input type="checkbox" name="blue" id="blue">
-                    <label for="black">Blue</label>
-                    <input type="checkbox" name="red" id="red">
-                    <label for="black">Red</label>
+                    <input type="checkbox" name="color" id="green" value="green">
+                    <label for="blue">Green</label>
+                    <input type="checkbox" name="color" id="other"  value="other">
+                    <label for="red">Other</label>
                 </div>
             </div>
         </div>
@@ -49,6 +51,7 @@
 
         <!--ProdContainer-->
         <div class="prodContainer">  
+            <div class="filtered" id="filtered"></div>
             <div class="mainProducts">
                 <div class="fullWidth topProd">
                     <div class="halfWidth">
@@ -143,7 +146,7 @@
                     <div class="prodDetails">
                         <p>BRIONI</p>
                         <p>Brioni rectangular brown and green sunglasses</p>
-                        <p><strong>Model ref: 55BRI</strong></p>
+                        <p><strong>Model ref: 62BRI</strong></p>
                     </div>
                     <div class="price">
                         <p>320,00 EUR</p>
@@ -196,5 +199,9 @@
     </main>
     <!--Main End-->
     <script src="./Assets/Scripts/scripts.js"></script>
+
+    <script>
+
+    </script>
 </body>
 </html>

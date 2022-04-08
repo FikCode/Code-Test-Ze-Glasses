@@ -136,6 +136,14 @@ main {
     gap: 10px 4%; /* row-gap column gap */
 }
 
+.filtered {
+    width: 90%;
+    padding: 40px 0;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
 .fullWidth {
     width: 100%;
     height: 810px;
