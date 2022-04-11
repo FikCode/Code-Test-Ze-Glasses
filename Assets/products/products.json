@@ -1,0 +1,58 @@
+[
+    {
+        "id": "60BRI",
+        "name": "Brioni vintage inspired black sunglasses",
+        "image": "./Assets/Images/alex-iby-XhMSz5I1kn8-unsplash.jpg",
+        "price": "320,00 EUR",
+        "color": "black"
+    },
+    {
+        "id": "48BRI",
+        "name": "Brioni squared sunglasses made with acetate and titanium",
+        "image": "./Assets/Images/woman-gc313e4feb_1920.jpg",
+        "price": "490,00 EUR",
+        "color": "other"
+    },
+    {
+        "id": "59BRI",
+        "name": "Brioni titanium silver green sunglasses",
+        "image": "./Assets/Images/woman-ga205e16f2_1920.jpg",
+        "price": "320,00 EUR",
+        "color": "green"
+    },
+    {
+        "id": "55BRI",
+        "name": "Brioni rectangular brown and green sunglasses",
+        "image": "./Assets/Images/woman-ga29a8ad14_1920.jpg",
+        "price": "320,00 EUR",
+        "color": "green"
+    },
+    {
+        "id": "62BRI",
+        "name": "Brioni squared vintage look black acetate sunglasses",
+        "image": "./Assets/Images/sunset-g5519dda2a_1920.jpg",
+        "price": "350,00 EUR",
+        "color": "black"
+    },
+    {
+        "id": "56BRI",
+        "name": "Brioni squared vintage look black acetate sunglasses",
+        "image": "./Assets/Images/model-gcecd4b72f_1920.jpg",
+        "price": "350,00 EUR",
+        "color": "black"
+    },
+    {
+        "id": "58BRI",
+        "name": "Brioni titanium silver gray sunglasses",
+        "image": "./Assets/Images/prince-akachi-4Yv84VgQkRM-unsplash.jpg",
+        "price": "460,00 EUR",
+        "color": "other"
+    },
+    {
+        "id": "54BRI",
+        "name": "Brioni titanium silver gray sunglasses",
+        "image": "./Assets/Images/jonathan-borba-reiwBhNJQS0-unsplash.jpg",
+        "price": "460,00 EUR",
+        "color": "other"
+    }
+]

@@ -1,0 +1,276 @@
+/** General **/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+    font-family: sans-serif;
+    list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/** General End**/
+
+/** Header **/
+header {
+    width: 100%;
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    width: 90%;
+    height: 100%;
+    position: relative;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.logo {
+    width: 96px;
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.searchAndCart {
+    height: 100%;
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.optionDesktop {
+    height: 100%;
+    align-items: center;
+    display: none;
+}
+
+.optionDesktop li{
+    margin-left: 5px;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.search, .cart {
+    width: 17px;
+}
+
+
+/** Header End **/
+
+/** Main **/
+main {
+    width: 100%;
+}
+
+/** Filter **/
+.filter {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.filterContainer {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filterCategory, .filtersCheck{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filtersCheck {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    max-width: 234px;
+}
+
+.filtersCheck p {
+    font-weight: bold;
+    margin-top: 2px;
+}
+
+.filtersCheck label {
+    margin-left: -15px;
+    margin-top: 2px;
+}
+/** Filter End**/
+
+/** ProdContainer **/
+
+.prodContainer {
+    width: 100%;
+    height: 3931;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainProducts {  
+    width: 90%;
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px 4%; /* row-gap column gap */
+}
+
+.filtered {
+    width: 90%;
+    padding: 40px 0;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.fullWidth {
+    width: 100%;
+    height: 810px;
+    max-width: 500px;
+    margin-right: auto;
+}
+
+.halfWidth {
+    width: 224px;
+    height: 493px;
+}
+
+.topProd {
+    display: flex;
+    justify-content: space-between;
+    height: 493px;
+}
+
+.desktop {
+    display: none;
+}
+
+.halfWidthImgCont {
+    width: 100%;
+    height: 338px;
+}
+
+.imageContainerFull {
+    width: 100%;
+    height: 712px;
+}
+
+.prodDetails{ 
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.prodDetailsFw {
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.mainProducts p {
+    font-size: 14px;
+}
+
+.last {
+   /* margin-right: calc(100% - 10% - 724px); responsive */
+}
+
+.productImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.lastProducts {
+    width: 90%;
+    height: 922px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lastProdImgContainer {
+    width: 100%;
+    max-width: 622px;
+    height: 90%;
+}
+
+/** ProdContainer End **/
+/** Main End**/
+
+
+
+/** Media Queries **/
+
+@media screen and (min-width: 1140px) {
+
+    .searchAndCart {
+        width: 150px;
+    }
+    .optionDesktop {
+        display: flex;
+    }
+
+    .search{
+        display: none;
+    }
+
+    .mainProducts {  
+        gap: 40px 25%;
+    }
+
+}
+
+@media screen and (min-width: 1500px) {
+    .mainProducts {  
+        max-width: 1500px;
+        gap: 40px 4%;
+        justify-content: space-between;
+    }
+
+    .fullWidth, .lastProducts {
+        display: none;
+    }
+
+    .fullWidth {
+        margin-right: 0;
+    }
+
+    .desktop {
+        display: block;
+    }
+
+ 
+
+}
